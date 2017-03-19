@@ -1,0 +1,34 @@
+<Page loaded="pageLoaded" actionBarHidden="true" class="page">
+	<StackLayout orientation="vertical" verticalAlignment="center" class="page-content">
+
+		<Image src="~/images/meetly_logo_image.png"
+			height="70"  />
+
+		<Label text="Reuniões Simplificadas" 
+			horizontalAlignment="center" 
+			class="app-brand" />
+
+		<TextField id="email" 
+			hint="{{ emailHint }}"
+			text="{{ email }}" 
+			keyboardType="email" 
+			autocorrect="false"
+			utocapitalizationType="none"/>
+
+		<TextField id="pass"
+			text="{{ pass }}" 
+			hint="{{ passHint }}" 
+			secure="true" />
+
+		<Button text="Entrar" 
+			style="margin:15 0 5;" 
+			tap="login" 
+			class="button"/>
+
+		<Label text="Sem conta? Crie uma!" 
+			horizontalAlignment="center" 
+			class="app-brand" 
+			style="font-size:14;"/>
+
+	</StackLayout>
+</Page>

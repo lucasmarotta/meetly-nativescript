@@ -1,0 +1,6 @@
+<Page loaded="pageLoaded">
+	<ActionBar title="Home" class="action-bar"></ActionBar>
+	
+	<Label text="" id="emailLogged"></Label>
+
+</Page>
